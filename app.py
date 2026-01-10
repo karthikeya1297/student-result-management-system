@@ -6,7 +6,7 @@ app = Flask(__name__)
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Karthik@8309",
+    password="your_mysql_password",
     database="student_results"
 )
 
